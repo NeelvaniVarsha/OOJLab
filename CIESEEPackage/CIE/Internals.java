@@ -1,13 +1,9 @@
 package CIE;
 
-     public class Student {
-         String usn;
-         String name;
-         int sem;
+     public class Internals {
+         int[] internalMarks;
 
-         public Student(String usn, String name, int sem) {
-             this.usn = usn;
-             this.name = name;
-             this.sem = sem;
+         public Internals(int[] internalMarks) {
+             this.internalMarks = internalMarks;
          }
      }
